@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <title> Login </title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" type="text/css" href="navbar.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="loulou4.png" alt="logo" class="logo">
+        </div>
+        <label for="btn" class="icon">
+            <span class="fa fa-bars"></span>
+        </label>
+        <input type="checkbox" id="btn">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="unghi.html">Unghii</a></li>
+            <li>
+                <label for="btn-1" class="show">Machiaj +</label>
+
+                <a href="home.html">Machiaj</a>
+                <input type="checkbox" id="btn-1">
+
+                <ul>
+                    <li><a href="home.html">Pentru Ochi</a></li>
+                    <li><a href="home.html">Pentru Buze</a></li>
+                    <li><a href="home.html">Pentru Ten</a></li>
+                </ul>
+            </li>
+            <li><a href="home.html">Cosmetice</a></li>
+            <li><a href="par.html">Par</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+        </ul>
+
+    </nav>
+    <div id="mesaje">
+    </div>
+
+    </div>
+    <div class="login-page">
+        <div class="form">
+            <form class="register-form">
+                <input id="username" type="text" placeholder="user name">
+                <input id="password" type="text" placeholder="password">
+                <input id="email" type="text" placeholder="email">
+                <button> Create </button>
+                <p class="message">Already Registered? <a href="#"> Login </a></p>
+            </form>
+
+            <form class="login-form">
+                <input id="usernamelogin" type="text" placeholder="user name">
+                <input id="passwordlogin" type="password" placeholder="password">
+                <button class="loginbtn"> Login </button>
+                <p class="message">Not Registered? <a href="#"> Register </a></p>
+            </form>
+
+
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+    <script src="text.js"></script>
+</body>
+
+</html>

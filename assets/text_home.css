@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+
+.titlu {
+    font-family: 'Chelsea Market',
+        cursive;
+    color: black;
+    align-content: center;
+    font-size: 50px;
+}
+
+p.breakAfter {
+    margin-bottom: 8em;
+}
+
+.prima-parte {
+    color: black;
+    align-items: left;
+    font-size: 20px;
+
+}
+
+p {
+    color: black;
+}
+
+b {
+    color: black;
+
+}
+
+.inceput {
+    color: balck;
+}
+
+.h5-titlu {
+    color: black;
+    font-weight: 900;
+    float: left;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.buton {
+    background-color: #efa5a5;
+    border: none;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 520;
+    margin: 4px 2px;
+    float: left;
+}

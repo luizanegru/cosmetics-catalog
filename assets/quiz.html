@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="stylesheet" type="text/css" href="navbar.css">
+    <link rel="stylesheet" type="text/css" href="quiz.css">
+
+
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="loulou4.png" alt="logo" class="logo">
+        </div>
+        <label for="btn" class="icon">
+            <span class="fa fa-bars"></span>
+        </label>
+        <input type="checkbox" id="btn">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="home.html">Unghii</a></li>
+            <li>
+                <label for="btn-1" class="show">Machiaj +</label>
+
+                <a href="home.html">Machiaj</a>
+                <input type="checkbox" id="btn-1">
+
+                <ul>
+                    <li><a href="home.html">Pentru Ochi</a></li>
+                    <li><a href="home.html">Pentru Buze</a></li>
+                    <li><a href="home.html">Pentru Ten</a></li>
+                </ul>
+            </li>
+            <li><a href="home.html">Cosmetice</a></li>
+            <li><a href="par.html">Par</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="home.html">LOGIN</a></li>
+        </ul>
+
+    </nav>
+
+
+    <div id="moveMe" class="circle"></div>
+
+    <div class="header">
+        <h1>Quiz pentru ingrijirea tenului</h1>
+        <div id="results">
+            <h2>Scorul dumneavoastra este <span class="score"></span></h2>
+        </div>
+    </div>
+    <div class="body">
+        <form name="quiz" onsubmit="event.preventDefault(); quizSubmit();">
+            <div class="questions">
+
+            </div>
+        </form>
+    </div>
+
+    <script type="text/javascript" src="quiz.js"></script>
+
+</body>
+
+</html>

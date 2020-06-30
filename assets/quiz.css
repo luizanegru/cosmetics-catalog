@@ -1,0 +1,53 @@
+.circle {
+    width: 30px;
+    height: 30px;
+    display: block;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -khtml-border-radius: 50px;
+    color: black;
+    background-color: red;
+    position: absolute;
+    left: 500px;
+    top: 500px;
+
+}
+
+.header {
+    text-align: center;
+    color: yellow;
+    padding: 20px;
+    background-image: linear-gradient(#084558, #18708C, #13AADA);
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.body {
+    text-align: center;
+    border-style: solid;
+    border: 3 3 3 3;
+    margin-top: 10px;
+    border-radius: 1px;
+}
+
+/* raspunsurile */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+.incercare {
+    font-size: 20px;
+    font-family: 'Merriweather',
+        serif;
+
+}
+
+
+
+
+.question2 {
+    font-size: 40px;
+    font-family: 'Merriweather',
+        serif;
+    margin-top: 20px;
+
+}

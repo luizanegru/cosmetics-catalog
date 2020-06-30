@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LOULOU</title>
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="stylesheet" type="text/css" href="navbar.css">
+    <link rel="stylesheet" type="text/css" href="carusel.css">
+    <link rel="stylesheet" type="text/css" href="text_home.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="loulou4.png" alt="logo" class="logo">
+        </div>
+        <label for="btn" class="icon">
+            <span class="fa fa-bars"></span>
+        </label>
+        <input type="checkbox" id="btn">
+        <ul>
+            <li><a href="index.ejs">Home</a></li>
+            <li><a href="#">Unghii</a></li>
+            <li>
+                <label for="btn-1" class="show">Machiaj +</label>
+
+                <a href="#">Machiaj</a>
+                <input type="checkbox" id="btn-1">
+
+                <ul>
+                    <li><a href="#">Pentru Ochi</a></li>
+                    <li><a href="#">Pentru Buze</a></li>
+                    <li><a href="#">Pentru Ten</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Cosmetice</a></li>
+            <li><a href="#">Quiz</a></li>
+            <li><a href="#">Cos</a></li>
+            <li><a href="#">LOGIN</a></li>
+        </ul>
+
+    </nav>
+
+
+    <div class="content">
+        <div class="carusel-images">
+            <img src="carusel.jpg">
+            <img src="carusel1.jpg">
+            <img src="carusel13.jpg">
+            <img src="carusel5.jpg">
+            <img src="carusel2.jpg">
+        </div>
+        <div onclick="side_slide(-1)" class="slide left">
+            <span class="fas fa-angle-left"></span>
+        </div>
+
+        <div onclick="side_slide(1)" class="slide right">
+            <span class="fas fa-angle-right"></span>
+        </div>
+        <div class="btm-sliders">
+            <span onclick="btm_slide(1)"></span>
+            <span onclick="btm_slide(2)"></span>
+            <span onclick="btm_slide(3)"></span>
+            <span onclick="btm_slide(4)"></span>
+            <span onclick="btm_slide(5)"></span>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="w3-row w3-padding w3-border">
+
+            <!-- Blog entries -->
+            <div class="w3-col l12 s12">
+
+                <!-- Blog entry -->
+                <div class="w3-container w3-white w3-margin w3-padding-large">
+                    <div class="w3-center">
+                        <h3>INGRIJIREA TENULUI!</h3>
+                        <h4>10 reguli! <span class="w3-opacity"></span></h4>
+                    </div>
+
+                    <div class="w3-justify">
+                        <!-- <img src="imagini/ten.jpg" style="transform: translateX(50%); width: 50%;" class="w3-padding-16"> -->
+                        <p>
+                            <strong>&nbsp;&nbsp;&nbsp;&nbsp;Cum sa iti ingrijesti tenul!</strong> Este foarte important
+                            sa-ti poti indentifica tipul de ten. Acest lucru iti permite sa iti ingrijesti tenul corect.
+                            De asemenea, alegerea gamei de cosmetice este la randul ei influentata de tipul de ten.
+                            <br />
+                            &nbsp;&nbsp;&nbsp;&nbsp; Desi nici un ten nu seamana cu celalalt, majoritatea au
+                            caracteristici care le permite gruparea in unul din urmatoarele tipuri: <br />
+                            <br />
+                            &nbsp;&nbsp;&nbsp;&nbsp; &laquo; ten uscat,<br />
+                            &nbsp;&nbsp;&nbsp;&nbsp; &laquo; ten normal,<br />
+                            &nbsp;&nbsp;&nbsp;&nbsp; &laquo; ten mixt <br />
+                            &nbsp;&nbsp;&nbsp;&nbsp; &laquo; ten gras. <br />
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;Pentru a determina tipul de ten, se recomanda curatarea tenului cu
+                            un
+                            demachiant usor. Apoi, dupa 30 de minute, se aplica pe frunte, nas, obraji si barbie o foita
+                            curata. Daca pe foita nu apar urme de grasime, atunci tenul este uscat.
+                            &nbsp;Tenul uscat este rugos si predispus la aparitia de linii fine si riduri premature.
+                            <br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;Daca tenul este gras pe anumite portiuni si uscat in altele, atunci
+                            ai
+                            un ten mixt.<br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;Tenul normal este de obicei neted si nu este predispus la acnee.
+                            Tenul
+                            gras este uleios la atingere si luceste. <br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;Tenul gras este predispus la aparitia punctelor negre si a
+                            pustulelor.<br />
+                            &nbsp;&nbsp;&nbsp;Tenul sensibil necesita o atentie mai speciala, intrucat poate fi sensibil
+                            la anumite ingrediente existente in majoritatea cosmeticelor. Persoanele cu ten sensibil ar
+                            trebui intotdeauna sa foloseasca produse de ingrijire hipoalergenice, pentru a proteja tenul
+                            de reactiile alergice. <br />
+                        </p>
+                        <!-- <p class="w3-left">
+              <button class="w3-button w3-white w3-border" >
+                  <b><i class="fa fa-arrow-alt-right"></i> REGULA 1</b>
+                </button>
+            </p> -->
+
+                        <hr>
+
+                        <div class="reguli">
+                            <div>
+                                <button class=" buton">
+                                    <b><i class="fa fa-arrow-alt-right"></i> REGULA 1</b>
+                                </button>
+                            </div>
+
+                            <div>
+                                <h5 class="h5-titlu">Produse de ingrijire a pielii adaptate tipului de piele.</h5>
+                            </div>
+                        </div>
+                        <br><br><br>
+                        <p>
+                            Pentru a avea grija de pielea ta si pentru a o respecta, cel mai important este ca mai intai
+                            sa te asiguri ca folosesti produse create special pentru tipul tau de piele. Pielea uscata
+                            nu
+                            are aceleasi nevoi ca pielea grasa.
+                        </p>
+                        <br /><br />
+
+                        <div class="reguli">
+                            <div>
+                                <button class=" buton">
+                                    <b><i class="fa fa-arrow-alt-right"></i> REGULA 2</b>
+                                </button>
+                            </div>
+
+                            <div>
+                                <h5 class="h5-titlu">Ofera atentie speciala zonelor sensibile.</h5>
+                            </div>
+                        </div>
+                        <br><br><br>
+                        <p>
+                            Anumite parti ale fetei (conturul ochilor, buzelor etc.) au o piele mai subtire, fragila.
+                            Aceste zone au nevoie de ingrijire speciala, mai ales conturul ochilor si buzele. Acestea
+                            sunt
+                            zonele mai sensibile ale fetei si au nevoie de atentie speciala.
+                        </p>
+
+                        <br /><br />
+
+                        <div class="reguli">
+                            <div>
+                                <button class=" buton">
+                                    <b><i class="fa fa-arrow-alt-right"></i> REGULA 3</b>
+                                </button>
+                            </div>
+
+                            <div>
+                                <h5 class="h5-titlu">Curatare delicata</h5>
+                            </div>
+                        </div>
+                        <br><br><br>
+                        <p>
+                            Trebuie sa ai grija de tenul tau prin produsele de curatare pe care le folosesti. Pentru a
+                            nu-ti agresa tenul si pentru a-i respecta echilibrul natural, trebuie sa folosesti un
+                            demachiant cu pH neutru, special creat pentru a-ti curata epiderma cu delicatete.
+                            <br /><br /></p>
+
+                        <div class="reguli">
+                            <div>
+                                <button class=" buton">
+                                    <b><i class="fa fa-arrow-alt-right"></i> REGULA 4</b>
+                                </button>
+                            </div>
+
+                            <div>
+                                <h5 class="h5-titlu">Ochii: o zona dificila</h5>
+                            </div>
+                        </div>
+                        <br><br><br>
+                        <p>
+                            Pielea conturului ochilor este de 10 ori mai fina decat pielea de pe restul fetei. Alege o
+                            rutina speciala pentru demachierea acestei zone.
+                        </p>
+
+                        <br /><br />
+
+                        <div class="reguli">
+                            <div>
+                                <button class=" buton">
+                                    <b><i class="fa fa-arrow-alt-right"></i> REGULA 5</b>
+                                </button>
+                            </div>
+
+                            <div>
+                                <h5 class="h5-titlu">Exfolierea este indispensabila</h5>
+                            </div>
+                        </div>
+                        <br><br><br>
+                        <p>
+                            Foloseste un tratament exfoliant potrivit, odata sau de doua ori pe saptamana. Trebuie sa
+                            fie eficient insa delicat. Alege un produs de exfoliere cu pH neutru, care este perfect
+                            pentru a purifica si netezi pielea, in timp ce-i respecta echilibrul natural.
+                        </p>
+
+                        <br /><br />
+
+                        <div class="reguli">
+                            <div>
+                                <button class=" buton">
+                                    <b><i class="fa fa-arrow-alt-right"></i> REGULA 6</b>
+                                </button>
+                            </div>
+
+                            <div>
+                                <h5 class="h5-titlu">Hidratarea este esentiala</h5>
+                            </div>
+                        </div>
+                        <br><br><br>
+                        <p>
+                            Dermul are in componenta 70% apa iar epidermul 15%. Pentru a pastra tenul bine hidratat,
+                            este important sa alegi o crema hidratanta care ofera echilibru nivelului de apa din
+                            piele. Poti folosi, de asemenea, si o masca hidratanta, inlaturand excesul cu un spray cu
+                            apa termala.
+                        </p>
+
+                        <br /><br />
+
+                        <div class="reguli">
+                            <div>
+                                <button class=" buton">
+                                    <b><i class="fa fa-arrow-alt-right"></i> REGULA 7</b>
+                                </button>
+                            </div>
+
+                            <div>
+                                <h5 class="h5-titlu">Preferabil, machiaj hipoalergenic</h5>
+                            </div>
+                        </div>
+                        <br><br><br>
+                        <p>
+                            Pentru a evita riscul alergiilor care provin de la produse nepotrivite tenului tau,
+                            foloseste produse de machiaj hipoalergenice, special concepute pentru a intampina nevoile
+                            tuturor tipurilor de piele, chiar si a celei sensibile.
+                        </p>
+
+                        <br /><br />
+
+                        <div class="reguli">
+                            <div>
+                                <button class=" buton">
+                                    <b><i class="fa fa-arrow-alt-right"></i> REGULA 8</b>
+                                </button>
+                            </div>
+
+                            <div>
+                                <h5 class="h5-titlu">Protectie solara</h5>
+                            </div>
+                        </div>
+                        <br><br><br>
+                        <p>
+                            Oricare ar fi anotimpul, alege produse de ingrijire care sa includa si filtre solare.
+                            Acestea reduc efectele nocive ale soarelui, care accelereaza imbatranirea.
+                        </p>
+
+                        <br /><br />
+
+                        <div class="reguli">
+                            <div>
+                                <button class=" buton">
+                                    <b><i class="fa fa-arrow-alt-right"></i> REGULA 9</b>
+                                </button>
+                            </div>
+
+                            <div>
+                                <h5 class="h5-titlu">Ai grija la factorii externi.</h5>
+                            </div>
+                        </div>
+
+
+                        <br><br><br>
+                        <p>
+                            Poluarea, fumul, stresul... Toate acestea au efecte nocive asupra tenului. Foloseste
+                            inainte de a pleca de acasa produse de ingrijire care sa te protejeze de factorii de stres
+                            cotidieni si curata tenul cu grija atunci cand te intorci.
+                        </p>
+
+                        <br /><br />
+
+                        <div class="reguli">
+                            <div style="float: left">
+                                <button class=" buton">
+                                    <b><i class="fa fa-arrow-alt-right"></i> REGULA 10</b>
+                                </button>
+                            </div>
+
+                            <div>
+                                <h5 class="h5-titlu">Nu neglija buzele</h5>
+                            </div>
+                        </div>
+
+                        <br><br><br>
+
+                        <p>
+                            Imediat ce simti nevoia, foloseste o crema reparatoare pentru buze. Nu ezita sa reaplici
+                            pe aceasta zona sensibila, in mod special atunci cand e necesar.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="carusel.js"></script>
+</body>
+
+</html>

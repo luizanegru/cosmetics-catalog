@@ -1,0 +1,25 @@
+[{
+        "username": "luizanegru",
+        "password": "qwerty123",
+        "email": "luiza.negru@yahoo.com",
+        "admin": true
+    },
+    {
+        "username": "anaBulaci",
+        "password": "123456",
+        "email": "ana.bulaci@gmail.com",
+        "admin": false
+    },
+    {
+        "username": "pascuionel",
+        "password": "pascu",
+        "email": "pascu_ionel@outlook.com",
+        "admin": false
+    },
+    {
+        "username": "lore",
+        "password": "loredana",
+        "email": "loredana@gmail.com",
+        "admin": false
+    }
+]
